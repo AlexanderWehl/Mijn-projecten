@@ -1,0 +1,32 @@
+{
+  "name": "Event",
+  "type": "object",
+  "properties": {
+    "titel": {
+      "type": "string",
+      "description": "Titel van het optreden"
+    },
+    "omschrijving": {
+      "type": "string",
+      "description": "Beschrijving van het event"
+    },
+    "datum": {
+      "type": "string",
+      "format": "date",
+      "description": "Datum van het optreden"
+    },
+    "tijd": {
+      "type": "string",
+      "description": "Tijdstip van het optreden"
+    },
+    "locatie": {
+      "type": "string",
+      "description": "Locatie van het optreden"
+    }
+  },
+  "required": [
+    "titel",
+    "datum",
+    "tijd"
+  ]
+}
